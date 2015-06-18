@@ -1,0 +1,73 @@
+/* CSS Document */
+body{background:url(../images/bg-01.jpg) repeat-x left top; font-size:12px;}
+fieldset{margin:0 auto; border:thin solid;  padding:30px 0;}
+fieldset.nobox{border:none;}
+legend{text-align:center; font-weight:bold;}
+a{text-decoration:none; color:#000;}
+input, textarea, select{resize:none;}
+
+.unselectable{-webkit-touch-callout:none; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+#header{width:1100px; margin:auto; height:221px; letter-spacing:-1px; font-family: Georgia, "Times New Roman", Times, serif;}
+#header h1{float: left; margin-top:30px; text-align:center; font-size:2.2em;}
+#header h1 a{color:#000000;}#nav-menu{float:right;}
+#nav-menu ul{margin:0; list-style:none;}
+#nav-menu li{display:inline;}
+#nav-menu a{display:block; float:left; padding: 30px 10px 0 10px; font-weight:bold; text-align:center; text-transform:uppercase; text-decoration:none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #4E4E4E;}
+#nav-menu li a:hover, #nav-menu li a.current{background:url(../images/bg-02.jpg) no-repeat center top;}
+#headerbg{clear:both; height:150px; background: url(../images/header-bg.jpg) no-repeat left top; margin-top: 20px;}
+
+#page{width:1100px; margin:auto; padding-top:20px; background:#F4F4F4; min-height:550px;}
+#content{float:left; width:810px; padding: 0px 20px 0px 20px; line-height:25px; font-size:14px;}
+#title{border-bottom:#9C9C9C 1px dashed; height:35px;}
+#title h2{padding-bottom:5px; margin:0; font-size:2.2em; float:left;}
+#title .welcome{float:right; padding:10px 20px 0 0;}
+.body{margin-top:25px; margin-bottom: 20px; padding-left:25px; padding-bottom: 5px; text-align:justify; clear:both;}
+.body table{margin:auto;}
+.body td, .body th{padding:3px 30px;}
+.body form{padding-top:20px;}
+
+.login fieldset{width:400px; padding:30px 0;}
+.login tr{padding:15px 0;}
+
+table#books{max-width:100%; margin:10px auto 50px; border:1px solid #999;}
+table#books thead{display:block; background:#ddd;}
+table#books tbody{display:block; max-height:320px; overflow:auto; overflow-y:scroll;}
+table#books tbody tr{outline: #9C9C9C 1px dashed;}
+
+input.print{width:120px; margin-bottom:10px; padding:5px;}
+
+td#update, td#save, td#bookedit{cursor:pointer; color:#06F;}
+ul#instructions{text-align:justify; list-style:square;}
+#feedetail{margin-top:30px;}
+#feedetail th, .feedetail td{text-align:left;}
+
+ul#side_menu, ul#side_menu ul{list-style-type:none; margin: 0; padding: 0; width: 220px; display:table;}
+ul#side_menu a{display: block; text-decoration: none; font-size:12px;}
+ul#side_menu li{margin-top: 1px;}
+ul#side_menu li a{background: #333; color: #fff; padding: 0.5em;}
+ul#side_menu li a:hover{background: #000;}
+ul#side_menu li ul li a{background: #ccc; color: #000; padding-left: 20px;}
+ul#side_menu li ul li a:hover{background: #aaa; border-left: 5px #000 solid; padding-left: 15px;}
+
+#footer{width:1100px; height:50px; margin:0 auto; background:url(../images/bg-04.jpg) no-repeat left top; font-size: 11px; color: #CCCCCC; clear:both;}
+#footer .message{color:#000; position:absolute; top:-20px; width:100%; text-align:center}
+#footer p{margin: 0; padding: 13px 20px 15px 20px;}
+#footer a{color: #FFFFFF;}
+#footer #legal{float: left;}
+#footer #links{float: right;}
+#footer #links a:before{content:"\00a0\00a0\00a0"}
+#footer #links a:after{content:"\00a0\00a0\00a0"}
+
+#booksearch{width:45%; text-align:center; float:left;}
+#bookchoices{width:45%; text-align:center; float:right; margin-right:30px; margin-top:-7px; position:relative;}
+#booksearch input{width:95%; line-height:1.5em;}
+#bookchoices input[type=button]{position:absolute; top:420px; left:130px}
+ul#searchlist, ul#choicelist{list-style:none; max-height:350px; overflow-y:auto;  width:100%; padding:0; border:1px solid #6CC}
+ul#choicelist{margin-top:0px;}
+ul#searchlist li, ul#choicelist li{border:2px #999999 solid; min-height:40px; margin:5px; text-align:left; padding:2px 8px; position:relative;}
+ul#searchlist{cursor:pointer;}
+ul#choicelist{cursor:default;}
+ul#choicelist li img#removeimg{position:absolute; right:10px; bottom:10px; cursor:pointer; width:25px; height:25px }
+ul#searchlist li:hover{border:2px #06C solid; background-color:#06F; color:#FFF}
+.sortable-placeholder{border: 1px dashed #CCC; background: none;}
+.sortable-dragging{border:2px #009 solid; display:list-item}
